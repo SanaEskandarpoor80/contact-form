@@ -1,22 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./assets/css/style.css">
+
   <title>Contact form</title>
 
-  
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  <div>
-    
+  <div class="form-warpper">
+    <div class="form-contianer">
+      <h1></h1>
+      <form>
+        <div class="form-row">
+          <div class="row-clm">
+            <label for="Fname">
+              First Name
+              <span>*</span>
+            </label>
+            <input type="text" id="Fname">
+          </div>
+          <div class="row-clm">
+            <label for="Lname">
+              Last Name
+              <span>*</span>
+            </label>
+            <input type="text" id="Lname">
+          </div>
+        </div>
+        <div class="row-clm">
+          <label for="Lname">
+            email
+            <span>*</span>
+          </label>
+          <input type="email" id="email">
+        </div>
+
+        <div class="form-row">
+          <p>
+            Query Type
+            <span>*</span>
+          </p>
+          <div class="Query-option">
+            <div class="row-clm">
+              <label for="GeneralEnquiry">
+                General Enquiry
+              </label>
+              <input type="radio" id="GeneralEnquiry" name="QueryType">
+            </div>
+
+            <div class="row-clm">
+              <label for="Support">
+                Support Request
+              </label>
+              <input type="radio" id="Support" name="QueryType">
+            </div>
+          </div>
+        </div>
+
+        <div class="row-clm">
+          <label for="Lname">
+            Message
+            <span>*</span>
+          </label>
+          <textarea id="Lname"></textarea>
+        </div>
+
+        <div >
+
+        </div>
+      </form>
+    </div>
   </div>
 </body>
+
 </html>

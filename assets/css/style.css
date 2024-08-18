@@ -1,0 +1,19 @@
+:root {
+    --body-back-color: hsl(148, 38%, 91%);
+}
+
+@font-face {
+    font-family: KarlaItalic;
+    src: url(/assets/fonts/Karla-Italic-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: KarlaItalic;
+}
+
+body {
+    font-family: KarlaItalic;
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-back-color);
+}
